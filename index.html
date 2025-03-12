@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH-TUBE</title>
-</head>
-<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
     
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+</style>
+</head>
+<body class="inter-font">
+    <header>
+        <nav class="w-11/12 max-auto flex justify-between items-center py-3 border-b-2">
+            <div>
+                <img class="w-[120px]" src="Logo.png" alt="">
+            </div>
+            <div class="button bg-stone-400 rounded-sm p-2 text-xs">
+                Sort By view
+            </div>
+            <div class="blogs bg-red-600 rounded-sm p-2 text-white">
+                Blog
+            </div>
+        </nav>
+    </header>
+    <nav id="category-container" class="flex justify-center  py-5 gap-5">
+        <button class="btn btn-sm bg-zinc-400 rounded-sm p-3">All</button>
+        <button class="btn btn-sm bg-zinc-400 rounded-sm p-3">All</button>
+        <button class="btn btn-sm bg-zinc-400 rounded-sm p-3">All</button>
+        <button class="btn btn-sm bg-zinc-400 rounded-sm p-3">All</button>
+    </nav>
+    <script src="script/index.js"></script>
 </body>
 </html>
